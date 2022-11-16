@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:wnb1/app/constant/api_const.dart';
 
-import '../news_models.dart';
+import '../models/news_models.dart';
 
 class NewsRepo {
   // dio же http менен AppConst.newsApi

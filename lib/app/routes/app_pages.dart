@@ -12,7 +12,12 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
+  // ignore: constant_identifier_names
   static const INITIAL = Routes.NEWS;
+  // ignore: constant_identifier_names
+  static const WEATHER = Routes.WEATHER;
+  // ignore: constant_identifier_names
+  static const BMI = Routes.BMI;
 
   static final routes = [
     GetPage(

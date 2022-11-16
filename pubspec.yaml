@@ -11,6 +11,7 @@ dependencies:
   get: 4.6.5
   dio: 4.0.6
   http: 0.13.5
+  cached_network_image: 3.2.2
   flutter: 
     sdk: flutter
 
@@ -22,3 +23,7 @@ dev_dependencies:
 flutter: 
   uses-material-design: true
 
+  assets:
+    - assets/new.jpg
+    - assets/news.jpg
+    - assets/weather.jpg

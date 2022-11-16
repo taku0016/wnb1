@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:wnb1/app/data/repositore/news_repo.dart';
 
-import '../../../data/news_models.dart';
+import '../../../data/models/news_models.dart';
 
 class NewsController extends GetxController {
   final newsRepo = NewsRepo();
